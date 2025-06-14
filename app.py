@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("random_forest_model.pkl")
 
 # Judul
-st.title("Prediksi Kategori Obesitas (NObeyesdad)")
+st.title("Prediksi Kategori Obesitas")
 
 # Input pengguna
 st.header("Masukkan Data Pengguna")
